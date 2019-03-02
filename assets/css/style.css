@@ -91,7 +91,7 @@ section h1 {
     border-bottom: 3px solid #DEDEDE;
 }
 
-.body-content img {
+#float-image {
     height: 150px;
     float: left;
     margin-right: 3%;
