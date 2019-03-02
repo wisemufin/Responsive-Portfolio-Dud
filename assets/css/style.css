@@ -1,0 +1,106 @@
+/* CSS for whole document */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p, a, form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #373737;
+    transition: .5s;
+}
+
+body {
+    margin: 0px;
+    background: url(../images/white-waves.png);
+}
+
+/* Nav Bar CSS */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #cccccc;
+}
+
+.width-restraint {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 960px;
+}
+
+header h1 {
+    /* font-size: 32px; */
+    padding: 25px;
+    color: white;
+    background: #4aaaa5;
+    margin: 0 0 0 25px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 0px 25px;
+}
+
+/* Content CSS */
+section {
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 12.5%;
+    width: 960px;
+    background: white;
+    /* height: 520px; */
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 4px 0px grey; */
+}
+
+.section-width {
+    padding: 2% 5%;
+}
+
+section h1 {
+    color: #4aaaa5;
+    padding-bottom: 3%;
+    border-bottom: 3px solid #DEDEDE;
+}
+
+section img {
+    height: 150px;
+    float: left;
+    margin-right: 3%;
+}
+
+section p {
+    line-height: 1.5;
+}
+
+/* Footer CSS */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    width: 100%;
+    margin-top: 7%;
+}
+
+footer p {
+    color: white;
+    padding: 21px 0px;
+}
